@@ -1,0 +1,741 @@
+Aangenaam: 1 
+Aanhalig: 0
+Aanhankelijk: 0
+Aanpassend: 1 
+Aantrekkelijk: 1 
+Aardig: 1 
+Achterdochtig: 1 
+Acrobatisch: 1 
+Actief: 1 
+Afhankelijk: 0
+Afstandelijk: 0
+Afwachtend: 0
+Agressief: 0
+Angstig: 0
+Apart: 0
+Argeloos: 0
+Arglistig: 0
+Assertief: 0
+Atletisch: 0
+Bedaard: 0
+Bedachtzaam: 0
+Bedreven: 0
+Bedrijvig: 1 
+Begaafd: 1 
+Begrijpend: 1 
+Beheerst: 1 
+Behendig: 1 
+Behoedzaam: 1 
+Behulpzaam: 1 
+Bekoorlijk: 1 
+Beminnelijk: 1 
+Bescheiden: 1 
+Beschermend: 0
+Betrouwbaar: 0
+Bevallig: 0
+Bevreesd: 0
+Beweeglijk: 0
+Bewonderenswaardig: 0
+Bezorgd: 0
+Bizar: 0
+Blij: 0
+Bouwlustig: 0
+Brutaal: 0
+Charmant: 0
+Creatief: 0
+Dankbaar: 0
+Dapper: 0
+Dartel: 0
+Deftig: 0
+Degelijk: 0
+Doelgericht: 0
+Doordacht: 0
+Doortastend: 0
+Doorzettend: 0
+Driftig: 1 
+Druk: 1 
+Edel: 1 
+Eenzelvig: 1 
+Eerlijk: 1 
+Eigenaardig: 1 
+Eigenwijs: 1 
+Elegant: 1 
+Energiek: 1 
+Enthousiast: 1 
+Ernstig: 1 
+Ervaringsgericht: 1 
+Evenwichtig: 1 
+Expressief: 1 
+Familiaal: 1 
+Fel: 1 
+Fier: 1 
+Fijngevoelig: 1 
+Flexibel: 1 
+Flink: 1 
+Fors: 1 
+Fraai: 1 
+Gedienstig: 1 
+Gedisciplineerd: 1 
+Geducht: 1 
+Geduldig: 1 
+Gehard: 1 
+Gehecht: 1 
+Gehoorzaam: 1 
+Geïnteresseerd: 1 
+Gelaten: 1 
+Geliefd: 1 
+Gemakzuchtig: 1 
+Gemoedelijk: 1 
+Genotzuchtig: 1 
+Geruisloos: 1 
+Geslepen: 1 
+Gesloten: 1 
+Gespierd: 1 
+Gevaarlijk: 1 
+Gevat: 1 
+Gevoelig: 1 
+Gewillig: 1 
+Gezellig: 1 
+Goed geheugen: 1 
+Goedaardig: 1 
+Goedgehumeurd: 1 
+Goedhartig: 1 
+Gracieus: 1 
+Grappig: 1 
+Grillig: 1 
+Groot: 1 
+Guitig: 1 
+Gulzig: 1 
+Handig: 1 
+Hardnekkig: 1 
+Hardwerkend: 1 
+Hartstochtelijk: 1 
+Hebzuchtig: 1 
+Hecht: 1 
+Hiërarchisch: 1 
+Honkvast: 1 
+Hoogbegaafd: 1 
+Huiselijk: 1 
+Hulpvaardig: 1 
+Humeurig: 1 
+Ijdel: 1 
+Ijverig: 1 
+Imiterend: 1 
+Imponerend: 1 
+improviserend: 1 
+Impulsief: 1 
+Indrukwekkend: 1 
+Ingenieus: 1 
+Ingewikkeld: 1 
+Innemend: 1 
+Intelligent: 1 
+Intens: 1 
+Interessant: 1 
+Intimiderend: 1 
+Inventief: 1 
+Inzettend: 1 
+Jaloers: 1 
+Kalm: 1 
+Kibbelend: 1 
+Kieskeurig: 1 
+Klein: 1 
+Kleinzerig: 1 
+Knap: 1 
+Koddig: 1 
+Komediant: 1 
+Komisch: 1 
+Koninklijk: 1 
+Koppig: 1 
+Krachtig: 1 
+Kunstig: 1 
+Kunstzinnig: 1 
+Kwetsbaar: 1 
+Kwetterend: 1 
+Langzaam: 1 
+Lawaaierig: 1 
+Leergierig: 1 
+Leidinggevend: 1 
+Lenig: 1 
+Levendig: 1 
+Levenslustig: 1 
+Lichtzinnig: 1 
+Lief: 1 
+Liefdevol: 1 
+Lieftallig: 0
+Listig: 0
+Log: 0
+Lui: 0
+Luidruchtig: 0
+Luisterbereid: 0
+Materialistisch: 0
+Meedogenloos: 0
+Meelevend: 0
+Merkwaardig: 0
+Mild: 0
+Moedig: 0
+Monter: 0
+Mooi: 0
+Nadenkend: 0
+Naïef: 0
+Nauwkeurig: 0
+Nerveus: 0
+Netjes: 0
+Niet kieskeurig: 0
+Nieuwsgierig: 0
+Nukkig: 0
+Nuttig: 0
+Omzichtig: 0
+Onafhankelijk: 1 
+Onbeholpen: 1 
+Onberekenbaar: 1 
+Onbetrouwbaar: 1 
+Onbevreesd: 1 
+Onbewogen: 1 
+Onderhoudend: 1 
+Ondernemend: 1 
+Ondeugend: 1 
+Ongedurig: 1 
+Ongestructureerd: 1 
+Ongevaarlijk: 1 
+Ongewoon: 0
+Onhandig: 0
+Onopgemerkt: 0
+Onoplettend: 0
+Onopvallend: 0
+Onrustig: 0
+Onstuimig: 0
+Ontwikkeld: 0
+Onverdraagzaam: 0
+Onvermoeibaar: 0
+Onverschillig: 0
+Onverschrokken: 0
+Onverstoorbaar: 0
+Onvoorzichtig: 0
+Onzeker: 0
+Opdringerig: 0
+Openhartig: 0
+Opgeruimd: 0
+Opgewekt: 0
+Opgewonden: 0
+Oplettend: 0
+Opmerkelijk: 0
+Opmerkzaam: 0
+Opofferingsgezind: 0
+Oppervlakkig: 0
+Opvallend: 0
+Opvliegend: 0
+Ordelijk: 0
+Ordentelijk: 0
+Overleggend: 0
+Paniekerig: 0
+Parmantig: 0
+Plagerig: 0
+Plichtsgetrouw: 0
+Plomp: 0
+Populair: 0
+Potsierlijk: 0
+Prachtig: 0
+Praktisch: 0
+Prikkelbaar: 0
+Pronkend: 0
+Proper: 1 
+Roekeloos: 1 
+Ruig: 1 
+Rumoerig: 1 
+Rusteloos: 1 
+Rustig: 0
+Samenwerkend: 0
+Schattig: 0
+Scherpzinnig: 0
+Schertsend: 0
+Schrikachtig: 0
+Schrokkerig: 0
+Schuw: 0
+Sierlijk: 0
+Slank: 0
+Slim: 0
+Slordig: 0
+Sluw: 0
+Snel: 0
+Sober: 0
+Sociaal: 0
+Soepel: 0
+Solitair: 0
+Spaarzaam: 0
+Speels: 0
+Spontaan: 0
+Sportief: 0
+Spottend: 0
+Standvastig: 0
+Statig: 0
+Sterk: 0
+Stevig: 0
+Stil: 0
+Stilzwijgend: 0
+Stoutmoedig: 0
+Streng: 0
+Strijdlustig: 0
+Sympathiek: 1 
+Taai: 1 
+Tam: 1 
+Teder: 1 
+Temperamentvol: 1 
+Territoriaal: 1 
+Tevreden: 1 
+Toegewijd: 1 
+Traag: 1 
+Trots: 1 
+Trouw: 1 
+Twistziek: 1 
+Uitdagend: 1 
+Uithoudend: 1 
+Vasthoudend: 1 
+Vechtlustig: 1 
+Veelzijdig: 1 
+Verantwoordelijk: 1 
+Verdedigend: 1 
+Verdraagzaam: 1 
+Verfijnd: 1 
+Verleidelijk: 1 
+Vernielzuchtig: 1 
+Verstandig: 1 
+Verstrooid: 1 
+Vertrouwelijk: 1 
+Verwoed: 1 
+Verzoenend: 1 
+Verzorgd: 1 
+Vijandig: 1 
+Vindingrijk: 1 
+Vinnig: 1 
+Vitaal: 1 
+Vlijtig: 1 
+Volgzaam: 1 
+Volhardend: 1 
+Volhoudend: 1 
+Volwassen: 1 
+Vooruitziend: 1 
+Voorzichtig: 1 
+Vredelievend: 1 
+Vreedzaam: 1 
+Vreemd: 1 
+Vreesachtig: 1 
+Vreugdevol: 1 
+Vriendelijk: 1 
+Vrijheidslievend: 1 
+Vrijmoedig: 1 
+Vrolijk: 1 
+Waakzaam: 1 
+Waardig: 1 
+Wakker: 1 
+Wantrouwig: 1 
+Weinig kieskeurig: 1 
+Wereldwijs: 1 
+Werkend: 1 
+Werklustig: 0
+Werkzaam: 0
+Wijs: 0
+Wild: 0
+Wilskrachtig: 0
+Wispelturig: 0
+Zacht: 0
+Zachtaardig: 0
+Zanglustig: 0
+Zeker: 0
+Zeldzaam: 0
+Zelfbewust: 0
+Zelfredzaam: 0
+Zelfstandig: 0
+Zelfzeker: 0
+Zelfzuchtig: 0
+Zenuwachtig: 0
+Zindelijk: 0
+Zorgeloos: 0
+Zorgvuldig: 1 
+Zorgzaam: 1 
+Zuinig: 1 
+Zwaar: 1 
+Zwervend: 1 
+Zwerver: 1 
+Zwijgzaam: 1 
+---------------------------------------
+Nummer Abs freq  Rel freq (%)
+111    4         100
+116    5         100
+160    3         100
+188    5         100
+206    3         100
+221    3         100
+232    3         100
+266    5         100
+290    4         100
+293    2         100
+300    6         100
+340    4         100
+353    3         100
+386    5         100
+22     9         90
+144    10        90
+252    10        90
+44     8         88
+112    6         85
+313    11        84
+9      5         83
+81     5         83
+146    5         83
+153    5         83
+173    5         83
+276    5         83
+316    9         81
+140    4         80
+186    4         80
+201    4         80
+247    4         80
+287    4         80
+306    4         80
+311    8         80
+315    4         80
+336    8         80
+356    4         80
+373    8         80
+395    8         80
+95     7         77
+310    7         77
+391    7         77
+342    13        76
+33     6         75
+36     3         75
+43     6         75
+55     3         75
+61     3         75
+62     3         75
+85     3         75
+88     3         75
+92     3         75
+114    3         75
+121    9         75
+122    3         75
+150    3         75
+164    6         75
+193    3         75
+216    3         75
+220    3         75
+233    3         75
+257    3         75
+270    3         75
+273    3         75
+283    3         75
+355    9         75
+385    6         75
+389    8         72
+39     5         71
+59     5         71
+109    5         71
+170    5         71
+225    5         71
+280    5         71
+359    5         71
+375    5         71
+17     12        70
+27     7         70
+100    7         70
+301    7         70
+331    7         70
+334    7         70
+314    11        68
+11     4         66
+15     6         66
+35     4         66
+49     2         66
+69     2         66
+70     2         66
+77     4         66
+82     2         66
+99     2         66
+102    2         66
+104    4         66
+107    6         66
+108    6         66
+151    4         66
+154    4         66
+166    2         66
+169    4         66
+172    2         66
+183    2         66
+194    2         66
+203    4         66
+223    4         66
+224    2         66
+228    8         66
+229    4         66
+245    4         66
+249    2         66
+260    4         66
+264    2         66
+272    8         66
+279    2         66
+286    2         66
+302    6         66
+305    4         66
+309    4         66
+330    4         66
+343    8         66
+357    6         66
+369    4         66
+324    9         64
+339    7         63
+345    7         63
+63     5         62
+126    5         62
+158    5         62
+171    5         62
+318    10        62
+333    5         62
+354    10        62
+381    5         62
+384    8         61
+5      6         60
+14     9         60
+18     3         60
+23     3         60
+25     6         60
+28     3         60
+31     3         60
+46     6         60
+72     3         60
+84     3         60
+131    3         60
+159    3         60
+178    3         60
+181    3         60
+191    3         60
+215    3         60
+292    3         60
+295    3         60
+323    6         60
+338    6         60
+344    6         60
+388    6         60
+349    7         58
+368    7         58
+396    7         58
+6      4         57
+29     4         57
+58     4         57
+163    4         57
+256    4         57
+268    4         57
+317    4         57
+320    8         57
+327    4         57
+337    8         57
+341    4         57
+348    8         57
+361    4         57
+366    4         57
+372    4         57
+377    4         57
+380    4         57
+394    4         57
+20     5         55
+78     5         55
+192    5         55
+371    5         55
+135    6         54
+209    6         54
+269    6         54
+304    6         54
+351    6         54
+120    7         53
+319    7         53
+2      4         50
+3      3         50
+12     3         50
+19     5         50
+21     2         50
+26     5         50
+30     4         50
+37     4         50
+40     4         50
+47     3         50
+50     3         50
+51     2         50
+52     3         50
+54     1         50
+67     1         50
+68     2         50
+73     4         50
+74     3         50
+76     1         50
+83     3         50
+87     1         50
+90     3         50
+91     2         50
+93     5         50
+97     2         50
+98     2         50
+101    2         50
+105    2         50
+106    4         50
+119    2         50
+124    2         50
+127    2         50
+128    2         50
+134    3         50
+136    6         50
+138    3         50
+141    3         50
+143    3         50
+155    3         50
+156    3         50
+161    3         50
+167    2         50
+174    1         50
+179    3         50
+182    2         50
+190    2         50
+195    1         50
+199    1         50
+200    2         50
+204    2         50
+208    1         50
+212    7         50
+213    5         50
+214    3         50
+222    2         50
+235    2         50
+237    3         50
+240    2         50
+241    3         50
+242    2         50
+250    2         50
+254    2         50
+255    1         50
+258    2         50
+261    4         50
+262    4         50
+271    1         50
+275    3         50
+277    1         50
+278    3         50
+281    2         50
+282    4         50
+288    4         50
+296    2         50
+298    2         50
+299    3         50
+321    6         50
+322    9         50
+346    4         50
+360    3         50
+363    3         50
+364    4         50
+367    4         50
+390    4         50
+392    3         50
+211    7         46
+142    5         45
+347    5         45
+393    5         45
+139    4         44
+303    4         44
+329    4         44
+370    4         44
+379    4         44
+4      3         42
+24     3         42
+57     3         42
+133    3         42
+152    3         42
+157    3         42
+165    3         42
+176    3         42
+202    3         42
+265    3         42
+328    3         42
+378    3         42
+13     2         40
+56     2         40
+75     4         40
+89     2         40
+103    2         40
+123    2         40
+184    2         40
+218    2         40
+231    2         40
+236    2         40
+312    4         40
+325    4         40
+352    4         40
+387    4         40
+10     3         37
+86     3         37
+132    3         37
+307    3         37
+358    3         37
+147    4         36
+71     5         35
+1      1         33
+8      1         33
+65     2         33
+79     2         33
+96     1         33
+115    3         33
+117    1         33
+145    1         33
+162    2         33
+168    2         33
+177    2         33
+180    2         33
+185    1         33
+205    1         33
+210    1         33
+227    2         33
+251    2         33
+253    1         33
+263    1         33
+267    1         33
+274    1         33
+291    1         33
+297    1         33
+308    1         33
+335    2         33
+383    3         33
+16     4         30
+41     2         28
+64     2         28
+118    2         28
+130    2         28
+149    2         28
+198    2         28
+226    2         28
+238    2         28
+285    2         28
+332    2         28
+376    2         28
+382    2         28
+32     1         25
+42     1         25
+45     1         25
+48     1         25
+53     1         25
+80     1         25
+175    1         25
+187    1         25
+234    1         25
+243    1         25
+289    1         25
+294    1         25
+374    2         25
+110    1         20
+113    1         20
+148    1         20
+239    1         20
+244    1         20
+246    1         20
+365    1         20
+38     1         16
+60     1         16
+197    1         16
+350    1         16
+34     1         14
+129    1         12
