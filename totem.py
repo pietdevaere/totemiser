@@ -1,4 +1,4 @@
-#####################################################
+###################################################
 ## Programma om een geschikte totemnaam te vinden
 ## Geschreven door Piet De Vaere
 ## Piet@devae.re
@@ -86,7 +86,7 @@ def proces_list(answers, name):
         if frequenties[i][2] != 0:
             frequenties[i][3] = 100 * frequenties[i][1] // frequenties[i][2]
     frequenties_gesorteerd = frequenties[1:] ## de [0,0] vooraan de lijst wegsmijten
-    frequenties_gesorteerd.sort(key = lambda x:  x[3], reverse = True)
+    frequenties_gesorteerd.sort(key = lambda x:  x[3], reverse = False)
     give_feedback(logfile, frequenties_gesorteerd)
 
 def read_file(naam):
