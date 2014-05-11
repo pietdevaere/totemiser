@@ -2,6 +2,7 @@
 ## Programma om een geschikte totemnaam te vinden
 ## Geschreven door Piet De Vaere
 ## Piet@devae.re
+## This code was written quick and dirty
 ##
 ## This work is licensed under a
 ## Creative Commons Attribution 3.0 Unported License.
