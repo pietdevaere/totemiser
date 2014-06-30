@@ -90,7 +90,7 @@ Geduldig:	11, 14, 17, 104, 107, 136, 151, 167, 179, 200, 245, 252, 318, 320, 322
 Gehard:		4, 19, 166, 173, 305, 310, 313, 323, 388
 Gehecht:	11, 52, 56, 139, 146, 153, 161
 Gehoorzaam:	111, 132, 133, 179, 387
-Geïnteresseerd:	25, 320
+Geinteresseerd:	25, 320
 Gelaten:	305, 385
 Geliefd:	49, 65, 86, 150, 153, 165, 280, 324
 Gemakzuchtig:	38
@@ -121,7 +121,7 @@ Hardwerkend:	28, 73, 252
 Hartstochtelijk:126, 173, 186, 273
 Hebzuchtig:	344
 Hecht:		310, 314, 330, 337, 348, 385, 395
-Hiërarchisch:	20, 107, 331, 338, 342, 343, 358, 363, 384
+Hierarchisch:	20, 107, 331, 338, 342, 343, 358, 363, 384
 Honkvast:	257, 260, 322, 336, 355, 377
 Hoogbegaafd:	316
 Huiselijk:	103
@@ -185,7 +185,7 @@ Moedig:		2, 17, 19, 20, 37, 40, 73, 75, 90, 130, 175, 180, 202, 204, 211, 212, 2
 Monter:		16, 41, 176, 265
 Mooi:		64, 79, 165, 248, 367, 378
 Nadenkend:	163
-Naïef:		2, 40
+Naief:		2, 40
 Nauwkeurig:	321
 Nerveus:	332, 345, 351
 Netjes:		26, 129, 365, 373

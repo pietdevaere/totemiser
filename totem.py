@@ -26,7 +26,7 @@ def give_feedback(logfile, frequenties_gesorteerd):
         if nummer[1] > 0:
             print("{0:6} {1:9} {2}".format(str(nummer[0]), str(nummer[1]),str(nummer[3])))
             logfile.write("{0:6} {1:9} {2}\n".format(str(nummer[0]), str(nummer[1]),str(nummer[3])))
-
+    print("{0:6} {1:9} {2}".format("Nummer", "Abs freq", "Rel freq (%)"))
 
 def user_feedback(adjectief):
     """vraagt de gebruiker of een adjectief van toepassing is"""
@@ -39,7 +39,7 @@ def user_feedback(adjectief):
         elif respons in {"quit", "q"}:
             exit()
         else:
-            print("antwoorden met 'ja', 'nee', '0' of '1'")
+            print("antwoorden met 'j','ja', 'n', 'nee', '0' of '1'")
 
 
 def proces_list(answers, name):            
@@ -141,4 +141,4 @@ while valid == 0:
     elif task in ("quit", "exit", "q"):
         exit()
 
-
+input("Druk enter om af te sluiten")
