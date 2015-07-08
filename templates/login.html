@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Totemiser -- Login</title>
+    <style>
+    table, th, td {
+            border: 1px solid black;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+        <h3>New user</h3>
+        <form method='POST'>
+            Username: <input type="text" name="username">
+            <input type="submit" name="action" value="Go">
+        </form>
+
+        <h3>Existing user</h3>
+        <form method='POST'>
+            Username: <select name="username">
+                        {% for user in users %}
+                        <option value="{{user}}">{{user}}</option>
+                        {% endfor %}
+                    </select>
+            <input type="submit" name="action" value="Go">
+        </form>
+    </div>
+  </body>
+</html>
