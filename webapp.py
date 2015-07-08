@@ -14,35 +14,20 @@ from flask import Flask, url_for, redirect, render_template, request
 from os import listdir
 app = Flask(__name__)
 
-def read_adjectives(inputFile):            
-    adjectives = {}
-    for line in open(inputFile, 'r'):
-        ## Kijken of de lijn een opmerking is
-        if line[0] == "#":
-            pass
-        else:
-            line = line.strip()
-            line = line.split(":")
-            adjective = line[0].strip()
-            text_numbers = line[1].strip().split(",")
-            numbers = []
-            for number in text_numbers:
-                number = int(number)
-                frequencies[number][2] += 1
-                numbers.append(number)
-            adjectives[adjective] = numbers
-    return adjectives
+result_path = 'results/'
+number_of_totems = 396  
 
-def process_answers(answers):
-    for adjective in adjectives.keys():
+
+
+def process_answers(user, answers):
+    for adjective in user.adjectives.keys():
         if adjective in answers:
-            for number in adjectives[adjective]:
-                frequencies[number][1] += 1
+            for number in user.adjectives[adjective]:
+                user.frequencies[number][1] += 1
 
-def parse_questionaire():
-    print(request.form)
+def parse_questionaire(user):
     answers = set()
-    for item in sorted_adjectives:
+    for item in user.sorted_adjectives:
         try:
             request.form[item]
         except:
@@ -51,13 +36,13 @@ def parse_questionaire():
             answers.add(item)
     return answers
     
-def calc_relative_freq():
-    for ii in range((len(frequencies))):
+def calc_relative_freq(user):
+    for ii in range((len(user.frequencies))):
         try:
-            frequencies[ii][3] = round(100 * frequencies[ii][1] / frequencies[ii][2])
+            user.frequencies[ii][3] = round(100 * user.frequencies[ii][1] / user.frequencies[ii][2])
         except ZeroDivisionError:
-            frequencies[ii][3] = 0
-    freq_sorted = frequencies[1:] ## remove first entry
+            user.frequencies[ii][3] = 0
+    freq_sorted = user.frequencies[1:] ## remove first entry
     freq_sorted.sort(key = lambda x:  x[3], reverse = True)
     return freq_sorted
 
@@ -82,6 +67,34 @@ def readin(name = None):
 def list_users():
     return listdir(result_path)
 
+class User():
+    
+    def __init__(self):
+        ## Nummerlijst aanmaken
+        ## formaat: [nummer, absolute frequentie, maximum, relative frequentie]
+        self.frequencies = [[i,0,0,0] for i in range(number_of_totems+1)]
+        self.adjectives = self.read_adjectives('adjectievenlijst.txt')
+        self.sorted_adjectives = sorted(self.adjectives.keys())
+
+    def read_adjectives(self, inputFile):            
+        adjectives = {}
+        for line in open(inputFile, 'r'):
+            ## Kijken of de lijn een opmerking is
+            if line[0] == "#":
+                pass
+            else:
+                line = line.strip()
+                line = line.split(":")
+                adjective = line[0].strip()
+                text_numbers = line[1].strip().split(",")
+                numbers = []
+                for number in text_numbers:
+                    number = int(number)
+                    self.frequencies[number][2] += 1
+                    numbers.append(number)
+                adjectives[adjective] = numbers
+        return adjectives
+
 @app.route('/', methods=['POST', 'GET'])
 def login():
     if request.method == 'GET':
@@ -94,25 +107,17 @@ def login():
 
 @app.route('/<username>', methods=['POST', 'GET'])
 def userpage(username):
+    user = User()
     if request.method == 'POST':
-        answers = parse_questionaire()
-        process_answers(answers)
+        answers = parse_questionaire(user)
+        process_answers(user, answers)
         writeout(answers, username)
-        freq_sorted = calc_relative_freq()
+        freq_sorted = calc_relative_freq(user)
         return render_template('results.html', results=freq_sorted)
         
     if request.method == 'GET':
         answers = readin(username)
-        return render_template('questionaire.html', answers=answers,  adjectives=sorted_adjectives)
+        return render_template('questionaire.html', answers=answers,  adjectives=user.sorted_adjectives)
 
-## Adjectievenlijst aanmaken
-## formaat: [nummer, absolute frequentie, maximum, relative frequentie]
-number_of_totems = 396  
-frequencies = [[i,0,0,0] for i in range(number_of_totems+1)]
-result_path = 'results/'
-
-
-adjectives = read_adjectives('adjectievenlijst.txt')
-sorted_adjectives = sorted(adjectives.keys())
 app.debug = True
 app.run()
