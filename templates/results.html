@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Totemiser results</title>
+    <style>
+    table, th, td {
+            border: 1px solid black;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Abs. Freq.</th>
+                <th>Max.</th>
+                <th>Rel. Freq.</th>
+            </tr>
+            {% for item in results %}
+            <tr>
+                <td>{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+                <td>{{item[3]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+  </body>
+</html>

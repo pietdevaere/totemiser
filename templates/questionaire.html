@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Totemiser</title>
+  </head>
+  <body>
+    <div id="content">
+        <form method='POST'>
+            <input type="submit" name="action" value="Go!">
+            <ul>
+                {% for adjective in adjectives %}
+                <li>
+                {{adjective}}: <input type="checkbox" name="{{adjective}}" value="{{adjective}}" 
+                    {% if  adjective in answers %} checked="checked" {% endif %}> 
+                </li>
+                {% endfor %}
+            </ul>
+            <input type="submit" name="action" value="Go!">
+        </form>
+    </div>
+  </body>
+</html>

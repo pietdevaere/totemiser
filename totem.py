@@ -5,12 +5,12 @@
 ## This code was written quick and dirty
 ##
 ## This work is licensed under a
-## Creative Commons Attribution 3.0 Unported License.
+## Creative Commons Attribution 3.0 License.
 #####################################################
 
 from datetime import datetime
 from random import random
-## Constante variables
+
 aantal_totems = 396  
 
 ## Adjectievenlijst aanmaken
@@ -94,8 +94,6 @@ def read_file(naam):
     answers = {}
 
     ## first skip through the first lines of the adjectievenfile
-
-
     ## coppy the first part of the logfile to the new logfile
     try:
         inputfile = open("./logs/{}.txt".format(naam), 'r') 
@@ -143,3 +141,4 @@ while valid == 0:
         exit()
 
 input("Druk enter om af te sluiten")
+
