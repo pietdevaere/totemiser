@@ -119,5 +119,6 @@ def userpage(username):
         answers = readin(username)
         return render_template('questionaire.html', answers=answers,  adjectives=user.sorted_adjectives)
 
-app.debug = True
-app.run()
+if __name__ == "__main__":
+    app.debug = True
+    app.run(port = 1901, host = '0.0.0.0')
